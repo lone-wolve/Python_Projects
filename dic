@@ -1,0 +1,22 @@
+from collections import defaultdict
+
+fruits  = ['apple','mango','apple','watermelon','orange','mango','watermelon','banana']
+
+fruitCounter = defaultdict(int)
+
+# for fruit in fruits:
+
+#     if fruit in fruitCounter.keys():
+#         fruitCounter[fruit] += 1
+#     else:
+#         fruitCounter[fruit] = 1
+# print(fruitCounter)
+    
+#TODO: Apply defaultdict collection
+
+for fruit in fruits:
+
+   fruitCounter[fruit] += 1
+
+
+print(fruitCounter)
